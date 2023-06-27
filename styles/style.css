@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #02162c;
+    --cor-terciaria: #ffffff;
+
+    --fonte-primaria: 'Roboto Slab', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+}
+
+.cabecalho{
+    background-color: var(--cor-secundaria);
+    padding: 3% 0% 3% 5%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho__menu__link{
+    font-family: var(--fonte-primaria);
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.filmes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filmes__conteudo{
+    padding: 5% 8% 5% 8%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 45px;
+}
